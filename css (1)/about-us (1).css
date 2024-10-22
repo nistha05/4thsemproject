@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .navbar #About-Us{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: white;
+  }
+  
+.about-page{
+    background-image:url("../images/about.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height:600px;
+    object-fit:inherit;
+}
+    .about-page p{
+        position: absolute;
+       top: 70%;
+       left: 7%;
+       left: 10%;
+       font-size:50px ;
+       color:black;
+       width: 120ch;
+       animation: typing 15s steps(80,end), blink .5s step-end infinite alternate;
+       animation-fill-mode: backwards;
+       white-space: nowrap;
+       overflow: hidden;
+       font-size: 1.5em;  
+   
+   }
+   
+   @keyframes typing {
+   from {
+     width:0%
+   }
+   to{
+       width:100%;
+   }
+   }
+     
+   @keyframes blink {
+   50% {
+     border-color: transparent
+   }
+   }
+    
+    .section-1 h2{
+        color: #C21717;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+     .section-1 .description p{
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+       
+        
+    }
+    .section-2  h2{
+        color: #C21717;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-left: 45px;
+    }
+    .section-2 .description p{
+        padding-top: 10px;
+        margin-left: 45px;
+        font-size: 20px;
+        margin-right: 45px;
+    }
+    .section-3 {
+      margin-bottom: 30px;
+    }
+    .section-3 h2{
+        color: #C21717;
+        margin-top: 30px; 
+        font-size: 20px;
+        margin-left: 45px;
+       
+    }
+    .section-3 .description h2{
+      border-left:4px solid #C21717;
+      border-radius: 3px;
+      margin-top: 30px;
+      padding: 8px;
+      margin-bottom: 10px;
+      
+      
+    }
+    .section-3 p{
+        font-size: 20px;
+        margin-left: 45px;
+        margin-bottom: 30px;
+        text-align:justify;
+       
+    }
+    .section-3 .commitments{
+      display: flex;
+      
+    }
+    .section-3 .commitments .image{
+      margin-left: 50px;
+    }
+    .section-3 .commitments .image img{
+      width: 50%;
+      height: 450px;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .footer{
+        background-color:black;
+        display: flex;
+        justify-content:space-evenly;
+        padding-top: 40px;
+      }
+      
+      .footer .column-one img{
+        height: 80px;
+        /* padding-top: 30px; */
+        
+      }
+      
+      .footer .column-one p{
+         color: white; 
+       
+      }
+      .footer .column-two{
+        /* display: flex; */
+      
+      }
+      .footer .column-two h2{
+        color: #C21717;
+        font-size: 20px;
+        width: 46%;
+        border-bottom: 1px solid #D9D9D9;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+      }
+      
+      .footer .column-two .card{
+        display: flex;
+        background-color: #D9D9D9;
+        padding: 5px;
+        margin-bottom: 20px;
+      }
+      .footer .column-two .card .image img{
+        height: 60px;
+        width: 80px;
+        border-radius: 5px;
+      }
+      .footer .column-two .description{
+        color: #000;
+        padding-left: 20px;
+      }
+      .footer .column-three h2{
+        color: #C21717;
+        font-size: 20px;
+        width: 25%;
+        border-bottom: 1px solid #D9D9D9;
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+        
+       
+      
+      }
+      .footer .column-three p{
+        color: black;
+      }
+      
+      .footer .column-three .contact-info {
+        background-color:#D9D9D9;
+        margin-bottom: 30px;
+      
+      }
+      
+      .footer .column-three .contact-info p{
+        width: 300px;
+        text-align: left;
+        padding-top: 35px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+      }
+      .footer .column-three .contact-info ul li {
+        display: inline-block;
+      
+      }
+      .footer .column-three .contact-info ul li i{
+       font-size: 40px;
+       margin-left: 20px;
+       margin-top: 25px;
+       padding-bottom: 10px;
+      }
+      
+      

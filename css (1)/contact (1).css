@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+.row{
+  background-image: url("../images/paws.jpg");
+}
+  
+  .navbar #Contact{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    color: white;
+  } 
+  .location iframe{
+    width: 1518px;
+    height: 400px;
+    /* margin-top: 15px; */
+  }
+  
+  .row .contact{
+    display:flex;
+    justify-content: space-around;
+  }
+ 
+  .row .contact .contact-info h3{
+    margin-top: 30px;
+    color: brown;
+  
+  }
+  .row .contact .contact-info .sub-info h4{
+    margin-top: 30px;
+    color: brown;
+    padding: 10px;
+   
+    }
+    .row .contact .contact-info .sub-info ul li{
+    padding: 7px;
+    
+      
+    }
+    .row .contact .contact-info .shelter h4{
+      color: brown;
+      margin-top: 20px;
+    }
+    .row .contact .contact-info .shelter ul li{
+      padding: 5px;
+      
+    }
+    
+    .row .contact .contact-info .icons ul li{
+      display:inline-block;
+      padding: 5px;
+      margin-top: 15px;
+      }
+    
+   
+      .row .contact .contact-form h3{
+      text-align: center;
+      color: brown;
+      margin-top: 20px;
+    }
+    .row .contact .contact-form .box-one{
+      display:flex;
+      justify-content:space-between;
+      margin-top: 20px;
+     }
+     .row .contact .contact-form .box-one label,.row .contact .contact-form .box-two label{
+      margin: 15px;
+     }
+    
+  .row .contact .contact-form .box-one input, .row .contact .contact-form .box-two input{
+    padding: 30px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+   }
+
+  .row .contact .contact-form .box-two{
+    display: flex;
+   margin-top: 20px;
+   }
+   .row .contact .contact-form .box-three .subject,.row .contact .contact-form .box-four{
+    margin-top: 20px;
+   }
+  
+  .row .contact .contact-form .box-three .subject input{
+  padding: 30px;
+  width: 300px;
+  border-radius: 5px;
+
+
+}
+
+.row .contact .contact-form .box-four  textarea{
+  width: 90%;
+  height: 100px;
+  padding: 42px ;
+  margin-top: 20px;
+  border-radius: 10px;
+ 
+ }
+ .contact-form .btn input{
+  height: 40px;
+  width: 150px;
+  border-radius: 15px;
+  background-color:  #C21717;
+  margin-top: 25px;
+  border: none;
+  margin-bottom: 40px;
+ }
+ .contact-form .btn input:hover{
+  background-color: yellowgreen;
+  transition-duration: 0.5s ease-in-out;
+ }
+ .error{
+  color: red;
+}
+  
